@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Fitness Predictor</title>
+</head>
+<body>
+    <h2>BMI Fitness Prediction System</h2>
+
+    <form method="POST">
+        Height (in meters): <br>
+        <input type="text" name="height" required><br><br>
+
+        Weight (in kg): <br>
+        <input type="text" name="weight" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <h3>{{ prediction }}</h3>
+</body>
+</html>
