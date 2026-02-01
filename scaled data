@@ -1,0 +1,7 @@
+import joblib
+
+# Save model
+joblib.dump(model, "bmi_model.pkl")
+
+# Save scaler too
+joblib.dump(scaler, "scaler.pkl")
